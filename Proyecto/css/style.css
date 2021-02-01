@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+#portada{
+    
+    height: 100vh;
+}
+#portada p{
+    font-size: 1em;
+    color:lightgreen;
+    font-family: 'Roboto', cursive;
+}
+#acerca-de-mi{
+    background-color: lightslategray;
+}
+
+.fab{
+    font-size: 9em;
+    margin: 30px;
+}
+.fa-html5{
+    color: orangered;
+}
+.fa-css3-alt{
+    color:blue;
+}
+.fa-js{
+    color:lightgreen;
+}
+#contacto{
+    margin: 30px;
+}

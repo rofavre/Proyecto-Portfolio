@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Para actualizar eln el host entrar a deploys y arrastrar la carpeta completa-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Portfolio</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">Rocio Favre</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="acerca-de-mi">Acerca de mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Proyectos</a>
+          </li>
+          <a class="nav-link " aria-current="page" href="#">Skills</a>
+
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="portada" class="bg-dark d-flex align-items-center">
+    <div class="container text-center">
+      <img class="w-25 rounded-circle" src="img/20201209_195936.jpg" alt="Foto de Rocio Favre">
+      <h1 class="text-danger">Rocio Favre</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est enim velit, nihil adipisci nesciunt quia!</p>
+    </div>
+  </section>
+
+  <section id="acerca-de-mi">
+    <div class="container py-5">
+      <h2 class="text-center mb-5">Acerca de mi</h2>
+      <div class="row">
+        <div class="col-4 offset-2">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo non eaque laudantium inventore doloribus
+            accusantium laborum, facilis quod aliquam qui! Perspiciatis praesentium nulla earum dolore explicabo, a
+            voluptatem commodi fugit?</p>
+        </div>
+        <div class="col-4">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae laudantium dolore quos quaerat quo similique
+            illo, illum aperiam non omnis minima magnam ipsum laborum nemo nobis vitae officiis voluptate. Recusandae!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="proyectos">
+    <div class="container py-5">
+      <h2 class="text-center mb-5">Proyectos</h2>
+      <div class="row text-center">
+        <div class="col-4 shadow p-3 mb-5 bg-white rounded ">
+          <a href="#" target="-blank">
+            <figure>
+              <img src="img/descarga.jpg" alt="Uno" width="200" height="200">
+              <figcaption>Proyecto1</figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="col-4 shadow p-3 mb-5 bg-white rounded">
+          <a href="#" target="-blank">
+            <figure>
+              <img src="img/lenguaje-de-programación.jpg" alt="Dos" width="200" height="200">
+              <figcaption>Proyecto2</figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="col-4 shadow p-3 mb-5 bg-white rounded">
+          <a href="#" target="-blank">
+            <figure>
+              <img src="img/pagina-web-gratis-2.jpg" alt="Tres" width="200" height="200">
+              <figcaption>Proyecto3</figcaption>
+            </figure>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container py-5">
+      <h2 class="text-center mb-5">Skills</h2>
+      <i class="fab fa-html5 fa-7x"></i>
+      <i class="fab fa-css3-alt fa-7x"></i>
+      <i class="fab fa-js fa-7x"></i>
+
+      <div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <div class="row">
+      <div class="col">
+        <h3>Dirección</h3>
+        <address>
+          <a href="mailto:rocioafavre@gmail.com">rocioafavre@gmail.com</a> <br>
+          <a href="https://www.linkedin.com/in/rocio-favre-b65985168/">LinkedIn</a> <br>
+          Buenos Aires, Argentina
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210146.68168877432!2d-58.573383207134555!3d-34.615743688997895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1611969693993!5m2!1ses-419!2sar" width="500" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </address>
+      </div>
+      <div class="col">
+        <h3>Contacto</h3>
+        <form action="https://formspree.io/f/xrgodzkw" method="POST">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="nombre" placeholder="Nombre" >
+            <label for="nombre">Nombre</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+            <label for="email">Correo</label>
+          </div>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Deje su mensaje aqui" id="mensaje"></textarea>
+            <label for="mensaje">Mensaje</label>
+          </div>
+          <br>
+          <button type="submit" class="btn btn-outline-primary">Enviar</button>
+
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
